@@ -1,3 +1,5 @@
-/**
- * Created by xumin on 2017/12/4.
- */
+if (process.env.NODE_ENV === 'production') {
+  module.exports = require('./env/production');
+} else {
+  module.exports = require('./env/development');
+}
