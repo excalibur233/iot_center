@@ -11,6 +11,11 @@ const production_config = {
     username: 'root',
     password: 'root',
   },
+
+  // mongodb config
+  mongodbConfig: {
+    db: 'mongodb://localhost/iot_app',
+  }
 };
 
 module.exports = production_config;

@@ -12,6 +12,11 @@ const development_config = {
     username: 'root',
     password: 'root',
   },
+
+  // mongodb config
+  mongodbConfig: {
+    url: 'mongodb://localhost/iot_app',
+  }
 };
 
 module.exports = development_config;

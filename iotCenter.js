@@ -2,6 +2,7 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 process.env.TZ = 'Asia/Shanghai';
 
 const config = require('./config/config');
+const mongoose = require('./config/mongoose')();
 const app = require('./config/express')();
 
 app.listen(config.port, function () {
