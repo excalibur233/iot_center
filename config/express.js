@@ -16,6 +16,7 @@ module.exports = function () {
   app.use(bodyParser.urlencoded({ extended: false }));
 
   // register local routes here
+  require('../app/routes/test.route')(app);
 
   // catch the 404 error.
   app.use((req, res) => {
