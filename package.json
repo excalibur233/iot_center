@@ -28,6 +28,7 @@
     "randomstring": "^1.1.5",
     "redis": "^2.8.0",
     "request": "^2.83.0",
-    "sequelize": "^4.25.1"
+    "sequelize": "^4.25.1",
+    "url": "^0.11.0"
   }
 }
