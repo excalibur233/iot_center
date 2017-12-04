@@ -7,7 +7,7 @@ const production_config = {
   mysqlConfig: {
     host: 'localhost',
     port: 3306,
-    database: 't_iot_center',
+    database: 'p_iot_center',
     username: 'root',
     password: 'root',
   },
